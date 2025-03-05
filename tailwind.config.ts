@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
+  darkMode: "class", // Enables dark mode support
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,10 +10,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "var(--background)", // Uses CSS variables from globals.css
         foreground: "var(--foreground)",
+      }, fontFamily: {
+        first: ["Orbitron","serif"],
+        sec: ["Righteous","serif"],
+        third: ["Spectral","serif"]
+      },   animation: {
+        'spin-slow': 'spin 6s linear infinite',  // Custom 4s spin duration
+        'spin-fast': 'spin 500ms linear infinite', // Faster spin example
       },
+     
     },
   },
   plugins: [],
-} satisfies Config;
+};
+
+export default config;
