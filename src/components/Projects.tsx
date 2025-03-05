@@ -12,7 +12,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div id="project" className="m-4  md:px-6 mt-24">
+    <div id="project" className="m-4 py-4 md:px-6 mt-24">
       {/* Gradient Line */}
       <div className="h-2 w-[90px] bg-gradient-to-r from-pink-400 to-blue-500 rounded-lg"></div>
 

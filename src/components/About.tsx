@@ -5,7 +5,7 @@ import { IoIosRocket } from "react-icons/io";
 
 const About = () => {
   return (
-    <section id="about" className="m-4 my-24 md:px-6">
+    <section id="about" className="m-4 my-24 py-4 md:px-6">
       {/* Decorative Line */}
       <div className="h-2 w-[90px] bg-gradient-to-r from-pink-400 to-blue-500 rounded-lg"></div>
 
@@ -20,15 +20,15 @@ const About = () => {
         About Me
       </motion.h1>
 
-      <div className="flex flex-wrap mx-auto mt-5 justify-between">
+      <div className="flex flex-wrap mx-auto  justify-between">
         {/* About Description */}
-        <article className="text-xl mx-auto text-gray-300 font-third  leading-relaxed ">
+        <article className="text-[12px] md:text-xl mx-auto   text-gray-300 font-third   ">
           <p>
             I am a passionate <strong>MERN stack developer</strong> with expertise in
-            <strong>React, Node.js, Express, and MongoDB</strong>. I have successfully built and deployed
+            <strong >React, Node.js, Express, and MongoDB</strong>. I have successfully built and deployed
             multiple full-stack applications, continuously improving my skills through hands-on projects.
             Additionally, I received training from 
-            <span className="font-semibold  text-[#faf0e6]"> Hyathi Technologies </span>, which refined my expertise
+            <span className="font-semibold  text-[#faf0e6] underline "> Hyathi Technologies </span>, which refined my expertise
             in modern web development. My focus is on building scalable, efficient, and user-friendly
             applications that solve real-world problems and drive innovation.
           </p>
@@ -59,9 +59,9 @@ const About = () => {
             },
           ].map((item, index) => (
             <div key={index} className="mt-4">
-              <h3 className="font-first text-[#dad5db] flex  items-center text-start ">
-                <IoIosRocket className="text-pink-400 w-6 mr-2 mb-2" /> {item.year}
-              </h3>
+             <h3 className="font-first text-[#dad5db] flex items-center text-start">
+  <IoIosRocket className="text-pink-400 w-6 h-6 mr-2" /> {item.year}
+</h3>
               <p className="ml-7 font-third text-[#dee2e8] leading-relaxed">{item.description}</p>
             </div>
           ))}

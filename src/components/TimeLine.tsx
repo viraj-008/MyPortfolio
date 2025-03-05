@@ -44,7 +44,7 @@ const TimeLine = () => {
                  <VerticalTimelineElement
                    className="vertical-timeline-element--work"
                    contentStyle={{ background: "#000028" }}
-                   contentArrowStyle={{ Right: "7px solid  white" }}
+                   contentArrowStyle={{ borderRight: "7px solid  white" }}
                    iconStyle={{ background: "black", color: "blue" }}
                    icon={<SiMongodb className="text-green-600" />}
                  >
@@ -70,7 +70,7 @@ const TimeLine = () => {
                  <VerticalTimelineElement
                    className="vertical-timeline-element--work"
                    contentStyle={{ background: "#000028" }}
-                   contentArrowStyle={{ Right: "7px solid  white" }}
+                   contentArrowStyle={{ borderRight: "7px solid  white" }}
                    iconStyle={{ background: "black", color: "blue" }}
                    icon={<RiNodejsLine className="text-green-700" />}
                  >

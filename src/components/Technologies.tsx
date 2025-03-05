@@ -10,8 +10,8 @@ import Image from "next/image";
 
 const Technologies = () => {
   return (
-    <div id="tech" className=" m-4 md:px-6 mt-24 ">
-    <div className="h-2  w-[90px] bg-gradient-to-r from-pink-400  to-blue-500 rounded-lg"></div> {/* line  */}
+    <div id="tech" className=" m-4 md:px-6 mt-24 py-4 ">
+    <div className="h-2 w-[90px] bg-gradient-to-r from-pink-400  to-blue-500 rounded-lg"></div> {/* line  */}
 
 
     <motion.div
