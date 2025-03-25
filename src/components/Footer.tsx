@@ -17,20 +17,22 @@ const Footer = () => {
         {/* Right Section: Social Media Links */}
         <div className="flex flex-col gap-4">
           <div className="flex gap-4 justify-center">
-            <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="hover:text-gray-400 transition">
+            <a href="https://github.com/viraj-008" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="hover:text-gray-400 transition">
               <FaGithub className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="hover:text-gray-400 transition">
+            <a href="www.linkedin.com/in/vivek-kumar-24ab832a2" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="hover:text-gray-400 transition">
               <FaLinkedin className="w-6 h-6 text-blue-500" />
             </a>
-            <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" className="hover:text-gray-400 transition">
-              <FaInstagramSquare className="w-6 h-6 text-pink-600" />
+            <a href="https://www.instagram.com/virajshekhar63" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" className="hover:text-gray-400 transition">
+              <FaInstagramSquare className="w-6 h-6  rounded-full" />
             </a>
           </div>
 
           <div className="flex items-center gap-2 px-3 py-1 rounded-lg border border-gray-600">
             <FaEnvelope className="text-red-600" />
-            <p className="text-gray-300 font-serif text-sm">virajshekar008@gmail.com</p>
+            <a href="mailto:virajshekar008@gmail.com" className="text-gray-300 font-serif text-sm">
+  virajshekar008@gmail.com
+</a>
           </div>
         </div>
       </div>

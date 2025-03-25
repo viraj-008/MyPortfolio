@@ -22,7 +22,7 @@ const About = () => {
 
       <div className="flex flex-wrap mx-auto  justify-between">
         {/* About Description */}
-        <article className="text-[12px] md:text-xl mx-auto   text-gray-300 font-third   ">
+        <article className="md:text-[15px] md:text-xl mx-auto   text-gray-400 font-first my-4 pl-6 md:text-center  ">
           <p>
             I am a passionate <strong>MERN stack developer</strong> with expertise in
             <strong >React, Node.js, Express, and MongoDB</strong>. I have successfully built and deployed

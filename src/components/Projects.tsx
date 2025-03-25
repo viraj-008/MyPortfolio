@@ -6,10 +6,10 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 
 const projects = [
+  { id: 3,src:"/images/sonnet1.png", alt: "sonnet-sounds", title: "Sonnet-Sounds", detail:" A Full-Stack AI-Based App that Generates Songs from Prompts", link:" https://sonnet-soundsviraj.vercel.app"  },
+  { id: 2,src:"/images/vstore.png", alt: "vstore", title: "V-Store",  detail:" A Full-Stack E-commerce App with Authentication, Product Management, and Secure Payments.", link:"https://v-store-full-s-tack.vercel.app" },
   { id: 1,src:"/images/pokemon.png", alt: "Pokemon firebase", title: "Pokemon", detail:"A Full-Stack Firebase App with Authentication, where users can adopt and feed Pokémon using Firestore Database.", link:"https://final-pkm.web.app" },
-  { id: 2,src:"/images/vstore.png", alt: "vstore", title: "V-Store",  detail:" A Full-Stack E-commerce App with Authentication, Product Management, and Secure Payments.", link: "#" },
-  { id: 3,src:"/images/sonnet.png", alt: "sonnet-sounds", title: "Sonnet-Sounds", detail:" A Full-Stack AI-Based App that Generates Songs from Prompts", link:"#" },
-  { id: 4, src:"/images/vstore.png", alt: "Visual Studio Code",title: "Project Four",  detail:"Fullstack firebase app",link: "#" },
+  // { id: 4, src:"/images/vstore.png", alt: "Visual Studio Code",title: "Project Four",  detail:"Fullstack firebase app",link: "#" },
 ];
 
 const Projects = () => {
